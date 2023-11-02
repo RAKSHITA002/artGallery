@@ -1,0 +1,12 @@
+<app-search></app-search>
+
+<div class="container">
+    <img [src]="'https://www.artic.edu/iiif/2/' + artwork.image_id + '/full/843,/0/default.jpg'" max-width="400"
+        height="450" alt="...">
+    <div class="content">
+        <h1 style =  "color : rgb(176,9,54);">{{ artwork.title }}</h1>
+        <h4 style="color : rgb(179,179,179); font-weight: 600;">{{ artwork.artist_title }}</h4>
+        <h6>{{artwork.department_title}}</h6>
+        <p>{{artwork.description}}</p>
+    </div>
+</div>

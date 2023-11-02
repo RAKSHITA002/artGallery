@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+
+.nav{
+    display : flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.20);
+}
+.nav-part2, .nav-part3{
+    display : flex;
+    gap : 2vw;
+    padding : 1vw;
+    font-size:1.5vw; font-weight: 200;
+}
+
+.logo{
+    height : 10vh;
+    width : 10vh;
+    padding-left : 10px;
+}
+
+.middle {
+    display : flex;
+    gap : 2vw;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color:rgb(249, 249, 249)
+}
+.middle p {
+    color : rgb(176,9,54);
+    font-weight: 500;
+}
+
+.middle img{
+    padding-top : 0.4vw;
+    width : 60%;
+    height: 43.5vw;
+}
+.nav a:hover{
+    color : rgb(176,9,54);
+}
+
+
+
+@media (max-width: 600px) {
+    .middle{
+        flex-direction: column;
+        padding : 4vw;
+        padding-bottom: 0;
+    }
+    .middle p {
+        font-size : 3vw;
+        padding : 4vw;
+        padding-bottom: 0;
+        
+    }
+
+ .wishlist, .collection{
+    font-size : 3vw;
+ }    
+
+}

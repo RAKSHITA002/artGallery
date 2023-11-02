@@ -1,0 +1,23 @@
+.container{
+    display : flex;
+    gap : 2vw;
+    margin-top: 3vw;
+    padding : 5vw;
+    padding-bottom: 2vw;
+    background-color: rgb(241, 241, 241);
+}
+
+.container img{
+    height : 30vw;
+    width : 35vw;
+}
+.content {
+    padding-left : 4vw;
+}
+
+@media(max-width: 600px) {
+    
+    .container{
+     flex-direction: column;
+    }
+}
